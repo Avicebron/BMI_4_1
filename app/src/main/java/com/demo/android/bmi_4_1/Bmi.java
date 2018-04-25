@@ -35,8 +35,8 @@ public class Bmi extends AppCompatActivity implements View.OnClickListener {
         result.setText("你的BMI值 = " + df.format(BMI));
         TextView suggest = findViewById(R.id.suggest);
 
-        if (BMI > 30)
-            suggest.setText(R.string.advice_toheavy);
+        if (BMI > 25)
+            suggest.setText(R.string.advice_heavy);
         else if (BMI < 20)
             suggest.setText(R.string.advice_light);
         else

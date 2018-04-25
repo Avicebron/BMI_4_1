@@ -3,5 +3,4 @@
     <string name="advice_light">你該多吃點</string>
     <string name="advice_average">身材很標準</string>
     <string name="advice_heavy">你該節食了</string>
-    <string name="advice_toheavy">你太胖了</string>
 </resources>
