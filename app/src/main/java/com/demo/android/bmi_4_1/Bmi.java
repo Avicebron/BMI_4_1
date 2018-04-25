@@ -37,8 +37,6 @@ public class Bmi extends AppCompatActivity implements View.OnClickListener {
 
         if (BMI > 30)
             suggest.setText(R.string.advice_toheavy);
-        else if (BMI >= 25)
-            suggest.setText(R.string.advice_heavy);
         else if (BMI < 20)
             suggest.setText(R.string.advice_light);
         else
